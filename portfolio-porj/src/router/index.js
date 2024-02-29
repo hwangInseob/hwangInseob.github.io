@@ -18,7 +18,23 @@ const router = createRouter({
       meta:{
         layout:'EmptyLayout'
       }
-    }
+    },
+    {
+      path: '/HeaderSet',
+      name: 'HeaderSet',
+      component: () => import('@/views/HeaderSetView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
+    {
+      path: '/SelectBox',
+      name: 'selectBox',
+      component: () => import('@/views/SelectBoxView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
   ]
 })
 
