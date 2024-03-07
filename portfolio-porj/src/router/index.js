@@ -35,6 +35,14 @@ const router = createRouter({
         layout:'EmptyLayout'
       }
     },
+    {
+      path: '/SwipeButton',
+      name: 'SwipeButton',
+      component: () => import('@/views/SwipeButtonView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
   ]
 })
 
