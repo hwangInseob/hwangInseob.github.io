@@ -59,6 +59,14 @@ const router = createRouter({
         layout:'EmptyLayout'
       }
     },
+    {
+      path: '/Buttons',
+      name: 'Buttons',
+      component: () => import('@/views/ButtonSetView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
   ]
 })
 
