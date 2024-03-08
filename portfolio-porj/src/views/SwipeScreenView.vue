@@ -38,11 +38,11 @@ const screenList = ref([
         thumbTitle: "Sign Up"
     },
     {
-        img: new URL('@/assets/img/swipeView/page_1.png', import.meta.url),
+        img: new URL('@/assets/img/swipeView/page_2.png', import.meta.url),
         thumbTitle: "Log In"
     },
     {
-        img: new URL('@/assets/img/swipeView/page_1.png', import.meta.url),
+        img: new URL('@/assets/img/swipeView/page_3.png', import.meta.url),
         thumbTitle: "Feed"
     }
 ])
