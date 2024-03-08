@@ -51,6 +51,14 @@ const router = createRouter({
         layout:'EmptyLayout'
       }
     },
+    {
+      path: '/BackgroundMask',
+      name: 'BackgroundMask',
+      component: () => import('@/views/BackgroundMaskView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
   ]
 })
 
