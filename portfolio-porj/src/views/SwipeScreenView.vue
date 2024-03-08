@@ -54,8 +54,6 @@ const transitionDuration = ref(100)
 
 function onMouseMove(e) {
     e.preventDefault()
-    console.log(e.movementX)
-    console.log(e.movementY)
     if(isDown.value) {
         let xMove = e.movementX
 
@@ -82,7 +80,6 @@ function onMouseDown(e) {
 function onMouseUp(e) {  
     e.preventDefault()
     isDown.value = false
-    console.log(e)
     fitToScreen()
 }
 
