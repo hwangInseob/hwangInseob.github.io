@@ -44,7 +44,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/hwangInseob.github.io/SwipeScreen',
+      path: '/SwipeScreen',
       name: 'SwipeScreen',
       component: () => import('@/views/SwipeScreenView.vue'),
       meta:{

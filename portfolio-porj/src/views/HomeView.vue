@@ -25,7 +25,7 @@ const menuList = ref([
     },
     { 
         title: 'MENU 2',
-        url: ''
+        url: '/SwipeScreen'
     },
     { 
         title: 'MENU 3',
