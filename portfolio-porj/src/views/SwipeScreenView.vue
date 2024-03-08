@@ -34,15 +34,15 @@ const isDown = ref(false)
 const screenRef = ref(null)
 const screenList = ref([
     {
-        img: 'src/assets/img/swipeView/page_1.png',
+        img: new URL('@/assets/img/swipeView/page_1.png', import.meta.url),
         thumbTitle: "Sign Up"
     },
     {
-        img: 'src/assets/img/swipeView/page_2.png',
+        img: new URL('@/assets/img/swipeView/page_1.png', import.meta.url),
         thumbTitle: "Log In"
     },
     {
-        img: 'src/assets/img/swipeView/page_3.png',
+        img: new URL('@/assets/img/swipeView/page_1.png', import.meta.url),
         thumbTitle: "Feed"
     }
 ])
