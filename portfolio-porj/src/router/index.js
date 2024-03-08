@@ -43,6 +43,14 @@ const router = createRouter({
         layout:'EmptyLayout'
       }
     },
+    {
+      path: '/SwipeScreen',
+      name: 'SwipeScreen',
+      component: () => import('@/views/SwipeScreenView.vue'),
+      meta:{
+        layout:'EmptyLayout'
+      }
+    },
   ]
 })
 
